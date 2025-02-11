@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Background Changer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>RGB Background Changer</h1>
+    <p>
+        Use the sliders below to adjust the background color by modifying the
+        <abbr title="Red, Green, Blue">RGB</abbr> values.
+    </p>
+
+    <label for="red">Red</label>
+    <input id="red" type="range" min="0" max="255" value="0">
+
+    <label for="green">Green</label>
+    <input id="green" type="range" min="0" max="255" value="0">
+
+    <label for="blue">Blue</label>
+    <input id="blue" type="range" min="0" max="255" value="0">
+
+    <p id="rgb-value">Current RGB: rgb(0,0,0)</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
